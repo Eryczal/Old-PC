@@ -121,7 +121,6 @@ class Screen {
     }
 
     keyboardHandler(event) {
-        console.log(event.key);
         switch (event.key) {
             case "Enter":
                 if (this.pages[this.currentPage].menu[this.activeMenu].func) {
@@ -166,7 +165,6 @@ class Screen {
 
             case "W":
             case "w":
-                console.log("ok");
                 scrollBy(0, -32);
                 break;
 
