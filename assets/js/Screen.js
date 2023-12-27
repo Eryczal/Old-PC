@@ -180,6 +180,7 @@ class Screen {
         this.activeMenu = 0;
         document.getElementById("content").innerText = "";
         this.displayPage(this.currentPage);
+        document.documentElement.scrollTop = 0;
     }
 }
 
